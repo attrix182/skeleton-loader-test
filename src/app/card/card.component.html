@@ -1,0 +1,26 @@
+<div class="container mt-4" *ngIf="!loading">
+<div class="center">
+  <div class="card d-flex justify-content-center">
+    <div class="img-card">
+      <img
+        src="https://uybor.uz/borless/uybor/img/user-images/no-avatar.png"
+        height="100px"
+        alt=""
+      />
+    </div>
+    Nombre: Jhon
+    <br />
+    Apellido: Nash
+  </div>
+</div>
+</div>
+
+<div class="center mt-4" *ngIf="loading">
+<ngx-skeleton-loader
+  count="1"
+  appearance="line"
+  animation="pulse"
+  [theme]="{ height: '200px', width: '200px' }"
+></ngx-skeleton-loader>
+</div>
+

@@ -1,0 +1,20 @@
+p {
+  font-family: Lato;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: rgb(189, 187, 218);
+  background: linear-gradient(
+    90deg,
+    rgb(201, 181, 181) 20%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
